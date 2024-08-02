@@ -13,7 +13,7 @@ public class dropdb {
 			
 			Scanner scr = new Scanner(System.in);
 			Class.forName("com.mysql.cj.jdbc.Driver");
-			Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/", "root", "akshaya@123");
+			Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/", "root", "root");
 			System.out.println("Enter Database name");
 			String sql = "drop database "+scr.next();
 			PreparedStatement pmst = conn.prepareStatement(sql);
