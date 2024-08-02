@@ -10,7 +10,7 @@ public class insertion {
 	private static final String Driver = "com.mysql.cj.jdbc.Driver";
 	private static final String Url = "";
 	private static final String Username = "root";
-	private static final String Password = "akshaya@123";
+	private static final String Password = "root";
 	private static Connection conn;
 	private static PreparedStatement pmst;
 	
